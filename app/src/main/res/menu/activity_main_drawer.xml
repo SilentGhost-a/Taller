@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_realtime"
+            android:icon="@drawable/ic_news"
+            android:title="@string/menu_realtime" />
+        <item
+            android:id="@+id/nav_storage"
+            android:icon="@drawable/ic_storage"
+            android:title="@string/menu_storage" />
+        <item
+            android:id="@+id/nav_sqlite"
+            android:icon="@drawable/ic_sqlite"
+            android:title="@string/menu_sqlite" />
+        <item
+            android:id="@+id/nav_recyclerview"
+            android:icon="@drawable/ic_recyclerview"
+            android:title="@string/menu_recyclerview" />
+        <item
+            android:id="@+id/nav_info"
+            android:icon="@drawable/ic_info"
+            android:title="@string/menu_info" />
+        <item
+            android:id="@+id/nav_mapa"
+            android:icon="@drawable/ic_map"
+            android:title="@string/menu_mapa" />
+        <item
+            android:id="@+id/nav_web"
+            android:icon="@drawable/ic_web"
+            android:title="@string/menu_web" />
+        <item
+            android:id="@+id/nav_camara"
+            android:icon="@drawable/ic_camera"
+            android:title="@string/menu_camara" />
+        <item
+            android:id="@+id/nav_salir"
+            android:icon="@drawable/ic_exit"
+            android:title="@string/menu_salir" />
+    </group>
+</menu>

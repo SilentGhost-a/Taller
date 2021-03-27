@@ -1,0 +1,116 @@
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".ui.info.InfoFragment">
+
+    <ImageView
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        app:srcCompat="@drawable/ic_mep" />
+
+    <TextView
+        android:id="@+id/tv_Contacto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contactenos:"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tv_central"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Despacho de la Ministra de Educación Pública"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/btn_LlamarMinistra"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Llamar"
+        app:icon="@drawable/ic_call" />
+
+    <Button
+        android:id="@+id/btn_CorreoMinistra"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enviar Correo"
+        app:icon="@drawable/ic_email" />
+
+    <TextView
+        android:id="@+id/tv_Tecnica"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Dirección de Educación Técnica"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/btn_LlamarTecnica"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Llamar"
+        app:icon="@drawable/ic_call" />
+
+    <Button
+        android:id="@+id/btn_CorreoTecnica"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enviar Correo"
+        app:icon="@drawable/ic_email" />
+
+    <TextView
+        android:id="@+id/tv_1er2doCiclo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_central"
+        android:layout_margin="10dp"
+        android:text="Departamento de Educación Primer y Segundo Ciclo"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/btn_Llamar1er2doCiclo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Llamar"
+        app:icon="@drawable/ic_call" />
+
+    <Button
+        android:id="@+id/btn_Correo1er2doCiclo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enviar Correo"
+        app:icon="@drawable/ic_email" />
+
+    <TextView
+        android:id="@+id/tv_3er4toCiclo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_central"
+        android:layout_margin="10dp"
+        android:textAlignment="center"
+        android:text="Departamento de Educación Tercer Ciclo y Enseñanza Diversificada"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/btn_Llamar3er4toCiclo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Llamar"
+        app:icon="@drawable/ic_call" />
+
+    <Button
+        android:id="@+id/btn_Correo3er4toCiclo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enviar Correo"
+        app:icon="@drawable/ic_email" />
+
+</androidx.appcompat.widget.LinearLayoutCompat>

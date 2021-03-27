@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_realtime">
+    <fragment
+        android:id="@+id/nav_realtime"
+        android:name="com.sc703.taller.ui.realtime.RealtimeFragment"
+        android:label="@string/menu_realtime"
+        tools:layout="@layout/fragment_realtime" />
+    <fragment
+        android:id="@+id/nav_storage"
+        android:name="com.sc703.taller.ui.storage.StorageFragment"
+        android:label="@string/menu_storage"
+        tools:layout="@layout/fragment_storage" />
+    <fragment
+        android:id="@+id/nav_sqlite"
+        android:name="com.sc703.taller.ui.sqlite.SQLiteFragment"
+        android:label="@string/menu_storage"
+        tools:layout="@layout/fragment_storage" />
+    <fragment
+        android:id="@+id/nav_recyclerview"
+        android:name="com.sc703.taller.ui.recyclerview.RecyclerViewFragment"
+        android:label="@string/menu_recyclerview"
+        tools:layout="@layout/fragment_recyclerview" />
+    <fragment
+        android:id="@+id/nav_info"
+        android:name="com.sc703.taller.ui.info.InfoFragment"
+        android:label="@string/menu_info"
+        tools:layout="@layout/fragment_info" />
+    <fragment
+        android:id="@+id/nav_mapa"
+        android:name="com.sc703.taller.ui.mapa.MapaFragment"
+        android:label="@string/menu_mapa"
+        tools:layout="@layout/fragment_mapa" />
+    <fragment
+        android:id="@+id/nav_web"
+        android:name="com.sc703.taller.ui.web.WebFragment"
+        android:label="@string/menu_web"
+        tools:layout="@layout/fragment_web" />
+    <fragment
+        android:id="@+id/nav_camara"
+        android:name="com.sc703.taller.ui.camera.CamaraFragment"
+        android:label="@string/menu_camara"
+        tools:layout="@layout/fragment_camara" />
+    <fragment
+        android:id="@+id/nav_salir"
+        android:name="com.sc703.taller.ui.salir.SalirFragment"
+        android:label="@string/menu_salir"
+        tools:layout="@layout/fragment_salir" />
+</navigation>

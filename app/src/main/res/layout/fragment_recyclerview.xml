@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tv_Cedula"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Cédula:"
+        android:textColor="#000" />
+
+    <EditText
+        android:id="@+id/edt_RVCedula"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/tv_Cedula"
+        android:layout_toEndOf="@id/tv_Nombre"
+        android:hint="Digite su cédula"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/tv_Nombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_Cedula"
+        android:layout_margin="10dp"
+        android:text="Nombre:"
+        android:textColor="#000" />
+
+    <EditText
+        android:id="@+id/edt_RVNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/tv_Nombre"
+        android:layout_toEndOf="@id/tv_Nombre"
+        android:hint="Digite su nombre"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/tv_Edad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_Nombre"
+        android:layout_margin="10dp"
+        android:text="Edad:"
+        android:textColor="#000" />
+
+    <EditText
+        android:id="@+id/edt_RVEdad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/tv_Edad"
+        android:layout_toEndOf="@id/tv_Nombre"
+        android:hint="Digite su edad"
+        android:inputType="number" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/tv_Edad"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn_RVAgregar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Agregar" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="10px"
+            android:background="@color/purple_500"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbarAlwaysDrawVerticalTrack="true"
+            android:scrollbars="vertical" />
+    </LinearLayout>
+</RelativeLayout>
+
